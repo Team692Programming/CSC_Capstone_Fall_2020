@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>CSC Capstone</title>
+  <link rel="stylesheet" href="css/master.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&dsplay=swap">
+  <script src="js\main.ts"></script>
+</head>
+
+<body>
+  <section class="content">
+    <div id="headbanner">
+      <div id="banner">
+        <!-- try to find a proper svg -->
+        <img src="imgs\200px-Creighton_University_logo.svg.png" alt="">
+      </div>
+    </div>
+    <div class="maincontent">
+      <div id="leftcol">
+        <div id="scholarship-categories-box">
+          <div class="sc-checkbox">
+            <input type="checkbox" id="undergradute" name="undergradute">
+            <label for="undergradute">Undergradute</label>
+          </div>
+          <div class="sc-checkbox">
+            <input type="checkbox" id="gradute" name="gradute">
+            <label for="gradute">Gradute</label>
+          </div>
+          <div class="sc-checkbox">
+            <input type="checkbox" id="phamacy-health" name="phamacy-health">
+            <label for="phamacy-health">Phamacy/Health</label>
+          </div>
+          <div class="sc-checkbox">
+            <input type="checkbox" id="medical" name="medical">
+            <label for="medical">Medical</label>
+          </div>
+          <div class="sc-checkbox">
+            <input type="checkbox" id="dental" name="dental">
+            <label for="dental">Dental</label>
+          </div>
+          <div class="sc-checkbox">
+            <input type="checkbox" id="law" name="law">
+            <label for="law">Law</label>
+          </div>
+          <div class="sc-checkbox">
+            <button id="search" onclick="myFunction()">Search</button>
+          </div>
+        </div>
+      </div>
+      <div id="rightcol">
+        <div class="panel-box">
+          <!-- div: photo -->
+          <div class="panel-details">
+            <h2>Test title scholarship</h2>
+            <div class="details">
+              <div class="details-sub">
+                <div class="detail-category" id="gpa">GPA: </div>
+                <div class="detail-category" id="sat">SAT: </div>
+                <div class="detail-category" id="act">ACT: </div>
+                <div class="detail-category" id="ethnicity">Ethnicity: </div>
+              </div>
+              <div class="description">
+                <p>this is filler text.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
